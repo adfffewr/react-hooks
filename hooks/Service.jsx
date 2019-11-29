@@ -11,6 +11,10 @@ import UsePreventLeave from './UsePreventLeave';
 import UseBeforeLeave from './UseBeforeLeave';
 import UseFadeIn from './UseFadeIn';
 import UseNetwork from './UseNetwork';
+import UseScroll from './UseScroll';
+import UseFullscreen from './UseFullscreen';
+import UseNotification from './UseNotification';
+import UseAxios from './UseAxios';
 
 const Service = () => {
     
@@ -28,6 +32,10 @@ const Service = () => {
             <UseBeforeLeave></UseBeforeLeave>
             <UseFadeIn></UseFadeIn>
             <UseNetwork></UseNetwork>
+            <UseScroll></UseScroll>
+            <UseFullscreen></UseFullscreen>
+            <UseNotification></UseNotification>
+            <UseAxios></UseAxios>
         </>
     );
 }
